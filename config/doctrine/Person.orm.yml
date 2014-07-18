@@ -1,0 +1,10 @@
+doctrinesbox\Model\Person:
+    type: mappedSuperclass
+    fields:
+        title:
+            type: string
+        firstname:
+            type: string
+        lastname:
+            type: string
+    

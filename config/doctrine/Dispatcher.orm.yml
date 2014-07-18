@@ -1,0 +1,13 @@
+doctrinesbox\Model\Dispatcher:
+    type: entity
+    inheritance:
+        extends: doctrinesbox\Model\Person
+        type: concrete
+    id:
+        id: 
+            type: integer
+            generator:
+                strategy: AUTO
+    fields:
+        division:
+            type: string

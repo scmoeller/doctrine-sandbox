@@ -1,0 +1,13 @@
+doctrinesbox\Model\Pilot:
+    type: entity
+    inheritance:
+        extends: doctrinesbox\Model\Person
+        type: simple
+    id:
+        id: 
+            type: integer
+            generator:
+                strategy: AUTO
+    fields:
+        typeRating:
+            type: string
